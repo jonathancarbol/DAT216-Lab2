@@ -17,11 +17,17 @@ public class RecipeBackendController {
         return db.search(searchFilter);
     }
 
-    public void setCuisine(String Cuisine){
-        searchFilter.setCuisine(Cuisine);
+    public void setCuisine(String cuisine){
+        if(cuisine.equals("Visa alla")){
+            cuisine = null;
+        }
+        searchFilter.setCuisine(cuisine);
     }
 
     public void setMainIngredient(String mainIngredient){
+        if(mainIngredient.equals("Visa alla")){
+            mainIngredient = null;
+        }
         searchFilter.setMainIngredient(mainIngredient);
     }
 

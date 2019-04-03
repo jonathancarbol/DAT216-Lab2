@@ -136,11 +136,12 @@ public class RecipeSearchController implements Initializable {
             }
         });
 
-        minuteLabel.setText("0");
+        minuteLabel.setText("60");
+        maxTimeSlider.setValue(60);
         maxTimeSlider.valueProperty().addListener(new ChangeListener<Number>() {
             @Override
             public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
-                if(newValue != null && !newValue.equals(oldValue) && !maxTimeSlider.isValueChanging()) {
+                if(newValue != null && !newValue.equals(oldValue) ) { //&& !maxTimeSlider.isValueChanging() om man inte vill att den ska uppdatera medans man rör sig men ger problem.
                     rbc.setMaxTime(newValue.intValue());
                     updateRecipeList();
                 }

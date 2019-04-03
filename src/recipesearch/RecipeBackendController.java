@@ -12,9 +12,6 @@ public class RecipeBackendController {
     SearchFilter searchFilter = new SearchFilter(null,0,null,0,null);
     RecipeDatabase db = RecipeDatabase.getSharedInstance();
 
-
-
-
     public List<Recipe> getRecipe(){
 
         return db.search(searchFilter);

@@ -17,10 +17,11 @@ public class RecipeSearch extends Application {
         
         Parent root = FXMLLoader.load(getClass().getResource("recipe_search.fxml"), bundle);
         
-        Scene scene = new Scene(root, 800, 500);
+        Scene scene = new Scene(root, 1000, 600);
         
         stage.setTitle(bundle.getString("application.name"));
         stage.setScene(scene);
+        stage.setMinWidth(450);
         stage.show();
 
     }

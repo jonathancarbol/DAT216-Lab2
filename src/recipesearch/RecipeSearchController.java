@@ -336,4 +336,23 @@ public class RecipeSearchController implements Initializable {
         }
         return new WritableImage(image.getPixelReader(), x, y, width, height);
     }
+
+    @FXML
+    public void closeButtonMouseEntered(){
+        detailedImage.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
+                "RecipeSearch/resources/icon_close_hover.png")));
+    }
+
+    @FXML
+    public void closeButtonMousePressed(){
+        detailedImage.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
+                "RecipeSearch/resources/icon_close_pressed.png"
+        )));
+    }
+
+    @FXML
+    public void closeButtonMouseExited(){
+        detailedImage.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
+                "RecipeSearch/resources/icon_close.png")));
+    }
 }

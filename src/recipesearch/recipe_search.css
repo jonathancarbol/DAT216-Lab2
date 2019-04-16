@@ -31,3 +31,11 @@
          -fx-font-family: "Century";
    }
 
+   .text-area .content {
+      -fx-background-color: -fx-background;
+   }
+
+   .text-area  {
+       -fx-background-color: -fx-background;
+   }
+

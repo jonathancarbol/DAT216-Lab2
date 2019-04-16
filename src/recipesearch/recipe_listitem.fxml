@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root onMouseClicked="#onClick" prefHeight="100.0" prefWidth="495.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root onMouseClicked="#onClick" prefHeight="105.0" prefWidth="513.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label fx:id="recipeItemName" layoutX="135.0" layoutY="1.0" styleClass="text-title" text="Name:">
+      <Label fx:id="recipeItemName" layoutX="109.0" layoutY="-1.0" styleClass="text-title" text="Name:" AnchorPane.leftAnchor="109.0" AnchorPane.topAnchor="-1.0">
          <font>
             <Font size="18.0" />
          </font></Label>
-      <ImageView fx:id="recipeImage" fitHeight="90.0" fitWidth="91.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView fx:id="listitem_cuisine" fitHeight="24.0" fitWidth="34.0" layoutX="63.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="recipeImage" fitHeight="90.0" fitWidth="91.0" layoutX="6.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="8.0" />
+      <ImageView fx:id="listitem_cuisine" fitHeight="24.0" fitWidth="34.0" layoutX="63.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="63.0" AnchorPane.topAnchor="60.0" />
+      <ImageView fx:id="ListItemMainIngredient" fitHeight="20.0" fitWidth="20.0" layoutX="109.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="109.0" AnchorPane.topAnchor="19.0" />
+      <ImageView fx:id="ListItemDifficulty" fitHeight="20.0" fitWidth="80.0" layoutX="135.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="135.0" AnchorPane.topAnchor="19.0" />
+      <Label fx:id="ListItemTime" layoutX="254.0" layoutY="20.0" text="XXX" AnchorPane.leftAnchor="254.0" AnchorPane.topAnchor="20.0" />
+      <Label layoutX="278.0" layoutY="20.0" text="minuter" AnchorPane.leftAnchor="278.0" AnchorPane.topAnchor="20.0" />
+      <Label fx:id="ListItemPrice" layoutX="345.0" layoutY="20.0" text="XX" AnchorPane.leftAnchor="345.0" AnchorPane.topAnchor="20.0" />
+      <Label layoutX="364.0" layoutY="20.0" text="kr" AnchorPane.leftAnchor="364.0" AnchorPane.topAnchor="20.0" />
+      <TextArea fx:id="ListItemDescription" editable="false" layoutX="111.0" layoutY="43.0" prefHeight="60.0" prefWidth="400.0" wrapText="true" />
    </children>
 </fx:root>

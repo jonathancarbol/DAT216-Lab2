@@ -153,6 +153,7 @@ public class RecipeSearchController implements Initializable {
             }
         });
         populateMainIngredientComboBox();
+        populateCuisineComboBox();
         Platform.runLater(()->mainIngredientList.requestFocus());
     }
     private void populateMainIngredientComboBox() {
@@ -209,8 +210,44 @@ public class RecipeSearchController implements Initializable {
         mainIngredientList.setButtonCell(cellFactory.call(null));
         mainIngredientList.setCellFactory(cellFactory);
     }
+    private void populateCuisineComboBox() {
+        Callback<ListView<String>, ListCell<String>> cellFactory = new Callback<ListView<String>, ListCell<String>>() {
+
+            @Override
+            public ListCell<String> call(ListView<String> p) {
+
+                return new ListCell<String>() {
+
+                    @Override
+                    protected void updateItem(String item, boolean empty) {
+                        super.updateItem(item, empty);
+
+                        setText(item);
+
+                        if (item == null || empty) {
+                            setGraphic(null);
+                        } else {
+                            Image icon = null;
+                            String iconPath;
+                            try {
+                               icon = getCuisineImage(item);
+                            } catch (NullPointerException ex) {
+                                //This should never happen in this lab but could load a default image in case of a NullPointer
+                            }
+                            ImageView iconImageView = new ImageView(icon);
+                            iconImageView.setFitHeight(12);
+                            iconImageView.setPreserveRatio(true);
+                            setGraphic(iconImageView);
+                        }
+                    }
+                };
+            }
+        };
+        kitchenList.setButtonCell(cellFactory.call(null));
+        kitchenList.setCellFactory(cellFactory);
+    }
     public Image getCuisineImage(String cuisine) {
-        String iconPath = "RecipeSearch/resources/icon_flag_sweden.png";
+        String iconPath = "";
         switch (cuisine) {
             case "Sverige":
                 iconPath = "RecipeSearch/resources/icon_flag_sweden.png";

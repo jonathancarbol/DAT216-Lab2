@@ -100,7 +100,7 @@
                      <children>
                         <ScrollPane layoutX="1.0" layoutY="-2.0" prefHeight="500.0" prefWidth="516.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <content>
-                              <FlowPane fx:id="resultFlowPane" prefHeight="498.0" prefWidth="514.0" />
+                              <FlowPane fx:id="resultFlowPane" prefHeight="519.0" prefWidth="544.0" />
                            </content>
                         </ScrollPane>
                      </children></AnchorPane>

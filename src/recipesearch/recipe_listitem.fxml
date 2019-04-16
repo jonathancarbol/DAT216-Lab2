@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root onMouseClicked="#onClick" prefHeight="105.0" prefWidth="513.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root onMouseClicked="#onClick" prefHeight="105.0" prefWidth="594.0" styleClass="recipe-list-item" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label fx:id="recipeItemName" layoutX="109.0" layoutY="-1.0" styleClass="text-title" text="Name:" AnchorPane.leftAnchor="109.0" AnchorPane.topAnchor="-1.0">
          <font>
@@ -20,6 +20,6 @@
       <Label layoutX="278.0" layoutY="20.0" text="minuter" AnchorPane.leftAnchor="278.0" AnchorPane.topAnchor="20.0" />
       <Label fx:id="ListItemPrice" layoutX="345.0" layoutY="20.0" text="XX" AnchorPane.leftAnchor="345.0" AnchorPane.topAnchor="20.0" />
       <Label layoutX="364.0" layoutY="20.0" text="kr" AnchorPane.leftAnchor="364.0" AnchorPane.topAnchor="20.0" />
-      <TextArea fx:id="ListItemDescription" editable="false" layoutX="111.0" layoutY="43.0" prefHeight="60.0" prefWidth="400.0" wrapText="true" />
+      <TextArea fx:id="ListItemDescription" editable="false" layoutX="111.0" layoutY="43.0" prefHeight="60.0" prefWidth="479.0" wrapText="true" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="43.0" />
    </children>
 </fx:root>

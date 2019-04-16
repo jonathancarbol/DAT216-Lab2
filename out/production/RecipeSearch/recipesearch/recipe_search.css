@@ -45,3 +45,11 @@
         -fx-background-color: #D0D0D0;
    }
 
+   .text-area .content {
+      -fx-background-color: -fx-background;
+   }
+
+   .text-area  {
+       -fx-background-color: -fx-background;
+   }
+

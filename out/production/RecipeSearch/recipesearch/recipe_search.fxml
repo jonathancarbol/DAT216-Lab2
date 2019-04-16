@@ -23,7 +23,7 @@
             <AnchorPane id="recipeDetailPane" fx:id="detailedView" prefHeight="498.0" prefWidth="793.0" style="-fx-background-color: #FF0000;">
                <children>
                   <Label fx:id="detailedName" layoutX="303.0" layoutY="54.0" text="Namn" />
-                  <ImageView fx:id="detailedImage" fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="detailedImage" fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="14.0" onMouseEntered="#closeButtonMouseEntered" onMouseExited="#closeButtonMouseExited" onMousePressed="#closeButtonMousePressed" pickOnBounds="true" preserveRatio="true" />
                   <Button fx:id="closeDetailed" layoutX="741.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeRecipeView" text="Stäng" />
                </children>
             </AnchorPane>
@@ -100,7 +100,7 @@
                      <children>
                         <ScrollPane layoutX="1.0" layoutY="-2.0" prefHeight="500.0" prefWidth="516.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <content>
-                              <FlowPane fx:id="resultFlowPane" prefHeight="498.0" prefWidth="514.0" />
+                              <FlowPane fx:id="resultFlowPane" prefHeight="519.0" prefWidth="544.0" />
                            </content>
                         </ScrollPane>
                      </children></AnchorPane>

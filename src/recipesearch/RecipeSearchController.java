@@ -48,6 +48,7 @@ public class RecipeSearchController implements Initializable {
     @FXML ImageView detailedImage;
     @FXML AnchorPane detailedView;
     @FXML SplitPane searchView;
+    @FXML ImageView closeButtonView;
 
     private void updateRecipeList(){
         resultFlowPane.getChildren().clear();
@@ -339,20 +340,20 @@ public class RecipeSearchController implements Initializable {
 
     @FXML
     public void closeButtonMouseEntered(){
-        detailedImage.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
+        closeButtonView.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
                 "RecipeSearch/resources/icon_close_hover.png")));
     }
 
     @FXML
     public void closeButtonMousePressed(){
-        detailedImage.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
+        closeButtonView.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
                 "RecipeSearch/resources/icon_close_pressed.png"
         )));
     }
 
     @FXML
     public void closeButtonMouseExited(){
-        detailedImage.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
+        closeButtonView.setImage(new Image(getClass().getClassLoader().getResourceAsStream(
                 "RecipeSearch/resources/icon_close.png")));
     }
 }

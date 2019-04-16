@@ -20,14 +20,8 @@
    <children>
       <StackPane prefHeight="500.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <AnchorPane id="recipeDetailPane" fx:id="detailedView" prefHeight="498.0" prefWidth="793.0" style="-fx-background-color: #FF0000;">
-               <children>
-                  <Label fx:id="detailedName" layoutX="303.0" layoutY="54.0" text="Namn" />
-                  <ImageView fx:id="detailedImage" fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="14.0" onMouseEntered="#closeButtonMouseEntered" onMouseExited="#closeButtonMouseExited" onMousePressed="#closeButtonMousePressed" pickOnBounds="true" preserveRatio="true" />
-                  <Button fx:id="closeDetailed" layoutX="741.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeRecipeView" text="Stäng" />
-               </children>
-            </AnchorPane>
-            <SplitPane id="searchPane" fx:id="searchView" dividerPositions="0.35" prefHeight="500.0" prefWidth="800.0">
+            <AnchorPane id="recipeDetailPane" fx:id="detailedView" prefHeight="498.0" prefWidth="793.0" style="-fx-background-color: #FF0000;" />
+            <SplitPane id="searchPane" fx:id="searchView" dividerPositions="0.5" prefHeight="500.0" prefWidth="800.0">
               <items>
                 <AnchorPane maxWidth="300.0" minHeight="0.0" minWidth="300.0" prefHeight="521.0" prefWidth="300.0" SplitPane.resizableWithParent="false">
                      <children>
@@ -47,7 +41,8 @@
                                     <Image url="@resources/icon_difficulty_easy.png" />
                                  </image>
                               </ImageView>
-                           </graphic></RadioButton>
+                           </graphic>
+                        </RadioButton>
                         <RadioButton fx:id="difficultyMedium" layoutX="147.0" layoutY="316.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="131.0" styleClass="text-smaller" text="Mellan" AnchorPane.leftAnchor="147.0" AnchorPane.topAnchor="316.0">
                            <graphic>
                               <ImageView fitHeight="22.0" pickOnBounds="true" preserveRatio="true">
@@ -55,7 +50,8 @@
                                     <Image url="@resources/icon_difficulty_medium.png" />
                                  </image>
                               </ImageView>
-                           </graphic></RadioButton>
+                           </graphic>
+                        </RadioButton>
                         <RadioButton fx:id="difficultyHard" layoutX="147.0" layoutY="341.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="116.0" styleClass="text-smaller" text="Svår" AnchorPane.leftAnchor="147.0" AnchorPane.topAnchor="341.0">
                            <graphic>
                               <ImageView fitHeight="22.0" pickOnBounds="true" preserveRatio="true">
@@ -63,7 +59,8 @@
                                     <Image url="@resources/icon_difficulty_hard.png" />
                                  </image>
                               </ImageView>
-                           </graphic></RadioButton>
+                           </graphic>
+                        </RadioButton>
                         <Text layoutX="13.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Hitta ett recept som passar genom att ändra inställningarna nedan." textAlignment="CENTER" wrappingWidth="250.0" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="122.0" />
                         <Text layoutX="17.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Svårighetsgrad:" textAlignment="RIGHT" wrappingWidth="116.07421916723251" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="264.8134765625" />
                         <Spinner fx:id="maxPriceSpinner" layoutX="145.0" layoutY="376.0" prefHeight="7.0" prefWidth="77.0" styleClass="text-normal" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="376.0" />
@@ -72,16 +69,19 @@
                         <Text layoutX="17.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Tid:" textAlignment="RIGHT" wrappingWidth="116.07421916723251" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="424.0">
                            <font>
                               <Font name="Century" size="12.0" />
-                           </font></Text>
+                           </font>
+                        </Text>
                         <Text layoutX="210.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-smaller" text="minuter" AnchorPane.leftAnchor="210.0" AnchorPane.topAnchor="446.15576171875" />
                         <Label id="logo" layoutX="69.0" layoutY="15.0" text="Recept" AnchorPane.leftAnchor="69.0" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font name="Segoe UI Black" size="18.0" />
-                           </font></Label>
+                           </font>
+                        </Label>
                         <ImageView fitHeight="83.0" fitWidth="78.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="11.0">
                            <image>
                               <Image url="@resources/logo.png" />
-                           </image></ImageView>
+                           </image>
+                        </ImageView>
                         <Text layoutX="234.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="kr" AnchorPane.leftAnchor="234.0" AnchorPane.topAnchor="380.0" />
                         <Label fx:id="minuteLabel" layoutX="184.0" layoutY="446.0" styleClass="text-smaller" text="00" AnchorPane.leftAnchor="184.0" AnchorPane.topAnchor="446.0" />
                         <Label id="logo-twirl" layoutX="185.0" layoutY="-9.0" text="sök" AnchorPane.leftAnchor="185.0" AnchorPane.topAnchor="-9.0">
@@ -108,5 +108,13 @@
             </SplitPane>
          </children>
       </StackPane>
+      <AnchorPane prefHeight="408.0" prefWidth="729.0">
+         <children>
+            <ImageView fx:id="detailedImage" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" onMouseEntered="#closeButtonMouseEntered" onMouseExited="#closeButtonMouseExited" onMousePressed="#closeButtonMousePressed" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+            <Label fx:id="detailedName" layoutX="214.0" layoutY="19.0" prefHeight="31.0" prefWidth="84.0" styleClass="text-title2" text="Namn" AnchorPane.leftAnchor="214.0" AnchorPane.topAnchor="19.0" />
+            <Button fx:id="closeDetailed" layoutX="497.0" layoutY="22.0" mnemonicParsing="false" onAction="#closeRecipeView" />
+            <ImageView fx:id="closeButtonView" fitHeight="36.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

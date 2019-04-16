@@ -63,12 +63,12 @@
        -fx-background-color: -fx-background;
    }
 
-   #anchor-pane-detailed2{
+   .anchor-pane-detailed2{
          -fx-background-color: -fx-background;
       }
 
-   #anchor-pane-detailed{
-      -fx-background-color: 0,0,0,0,0.75;
+   .anchor-pane-detailed{
+      -fx-background-color: rgba(0, 0, 0, 0.75)
    }
    .text-title2{
             -fx-font-size: 24px;

@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b04177fb-4d76-4dc4-990e-3e7c9ee72e7b" name="Default" comment="Detailed view typ klar.">
+    <list default="true" id="b04177fb-4d76-4dc4-990e-3e7c9ee72e7b" name="Default" comment="Detailed view typ klar2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$7$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_listitem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_listitem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_search.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_search.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipesearch/RecipeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipesearch/RecipeSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipesearch/recipe_listitem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipesearch/recipe_listitem.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipesearch/recipe_search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipesearch/recipe_search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipesearch/recipe_search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipesearch/recipe_search.fxml" afterDir="false" />
     </list>
@@ -73,16 +62,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="116" />
+          <entry key="css" value="196" />
           <entry key="java" value="3424" />
-          <entry key="txt" value="126" />
+          <entry key="txt" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="116" />
+          <entry key="CSS" value="196" />
           <entry key="JAVA" value="3424" />
-          <entry key="PLAIN_TEXT" value="126" />
+          <entry key="PLAIN_TEXT" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -164,7 +153,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -185,16 +174,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+            <state relative-caret-position="425">
+              <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544">
+            <state relative-caret-position="-34">
               <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
               <folding>
                 <element signature="e#2108#2109#0" expanded="true" />
@@ -267,8 +256,8 @@
         <option value="$PROJECT_DIR$/src/recipesearch/RecipeBackendController.java" />
         <option value="$PROJECT_DIR$/src/recipesearch/RecipeListItem.java" />
         <option value="$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java" />
-        <option value="$PROJECT_DIR$/src/recipesearch/recipe_search.css" />
         <option value="$PROJECT_DIR$/src/recipesearch/RecipeSearch.java" />
+        <option value="$PROJECT_DIR$/src/recipesearch/recipe_search.css" />
       </list>
     </option>
   </component>
@@ -328,7 +317,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555449103161" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555449601153" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -504,14 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555448530734</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Detailed view typ klar2.">
+      <created>1555449117929</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555449117929</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948148" visible="true" weight="0.1913646" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4948148" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,7 +516,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.345987" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.345987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,7 +565,8 @@
     <MESSAGE value="finishat lite" />
     <MESSAGE value="finishat lite till" />
     <MESSAGE value="Detailed view typ klar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Detailed view typ klar." />
+    <MESSAGE value="Detailed view typ klar2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Detailed view typ klar2." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.xml">
@@ -649,28 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding>
-            <element signature="e#2108#2109#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#6672#9031#0" expanded="true" />
-            <element signature="e#9030#9031#0" expanded="true" />
-            <element signature="e#9461#10550#0" expanded="true" />
-            <element signature="e#10549#10550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeListItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -682,6 +657,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+          <folding>
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#2144#2145#0" expanded="true" />
+            <element signature="e#6672#9031#0" expanded="true" />
+            <element signature="e#9030#9031#0" expanded="true" />
+            <element signature="e#9461#10550#0" expanded="true" />
+            <element signature="e#10549#10550#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

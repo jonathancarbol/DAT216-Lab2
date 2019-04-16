@@ -21,7 +21,7 @@
    <children>
       <StackPane prefHeight="500.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <AnchorPane id="recipeDetailPane" fx:id="detailedView" prefHeight="498.0" prefWidth="793.0" style="-fx-background-color: rgba(0, 0, 0, 0.75);">
+            <AnchorPane fx:id="detailedView" prefHeight="498.0" prefWidth="793.0" styleClass="anchor-pane-detailed">
                <children>
                   <AnchorPane id="anchor-pane-detailed2" prefHeight="450.0" prefWidth="750.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="45.0">
                      <children>

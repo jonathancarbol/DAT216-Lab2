@@ -8,6 +8,7 @@
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.Spinner?>
 <?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -20,14 +21,8 @@
    <children>
       <StackPane prefHeight="500.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <AnchorPane id="recipeDetailPane" fx:id="detailedView" prefHeight="498.0" prefWidth="793.0" style="-fx-background-color: #FF0000;">
-               <children>
-                  <Label fx:id="detailedName" layoutX="303.0" layoutY="54.0" text="Namn" />
-                  <ImageView fx:id="detailedImage" fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="14.0" onMouseEntered="#closeButtonMouseEntered" onMouseExited="#closeButtonMouseExited" onMousePressed="#closeButtonMousePressed" pickOnBounds="true" preserveRatio="true" />
-                  <Button fx:id="closeDetailed" layoutX="741.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeRecipeView" text="Stäng" />
-               </children>
-            </AnchorPane>
-            <SplitPane id="searchPane" fx:id="searchView" dividerPositions="0.35" prefHeight="500.0" prefWidth="800.0">
+            <AnchorPane id="recipeDetailPane" fx:id="detailedView" prefHeight="498.0" prefWidth="793.0" style="-fx-background-color: #FF0000;" />
+            <SplitPane id="searchPane" fx:id="searchView" dividerPositions="0.5" prefHeight="500.0" prefWidth="800.0">
               <items>
                 <AnchorPane maxWidth="300.0" minHeight="0.0" minWidth="300.0" prefHeight="521.0" prefWidth="300.0" SplitPane.resizableWithParent="false">
                      <children>
@@ -47,7 +42,8 @@
                                     <Image url="@resources/icon_difficulty_easy.png" />
                                  </image>
                               </ImageView>
-                           </graphic></RadioButton>
+                           </graphic>
+                        </RadioButton>
                         <RadioButton fx:id="difficultyMedium" layoutX="147.0" layoutY="316.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="131.0" styleClass="text-smaller" text="Mellan" AnchorPane.leftAnchor="147.0" AnchorPane.topAnchor="316.0">
                            <graphic>
                               <ImageView fitHeight="22.0" pickOnBounds="true" preserveRatio="true">
@@ -55,7 +51,8 @@
                                     <Image url="@resources/icon_difficulty_medium.png" />
                                  </image>
                               </ImageView>
-                           </graphic></RadioButton>
+                           </graphic>
+                        </RadioButton>
                         <RadioButton fx:id="difficultyHard" layoutX="147.0" layoutY="341.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="116.0" styleClass="text-smaller" text="Svår" AnchorPane.leftAnchor="147.0" AnchorPane.topAnchor="341.0">
                            <graphic>
                               <ImageView fitHeight="22.0" pickOnBounds="true" preserveRatio="true">
@@ -63,7 +60,8 @@
                                     <Image url="@resources/icon_difficulty_hard.png" />
                                  </image>
                               </ImageView>
-                           </graphic></RadioButton>
+                           </graphic>
+                        </RadioButton>
                         <Text layoutX="13.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Hitta ett recept som passar genom att ändra inställningarna nedan." textAlignment="CENTER" wrappingWidth="250.0" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="122.0" />
                         <Text layoutX="17.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Svårighetsgrad:" textAlignment="RIGHT" wrappingWidth="116.07421916723251" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="264.8134765625" />
                         <Spinner fx:id="maxPriceSpinner" layoutX="145.0" layoutY="376.0" prefHeight="7.0" prefWidth="77.0" styleClass="text-normal" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="376.0" />
@@ -72,16 +70,19 @@
                         <Text layoutX="17.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Tid:" textAlignment="RIGHT" wrappingWidth="116.07421916723251" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="424.0">
                            <font>
                               <Font name="Century" size="12.0" />
-                           </font></Text>
+                           </font>
+                        </Text>
                         <Text layoutX="210.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-smaller" text="minuter" AnchorPane.leftAnchor="210.0" AnchorPane.topAnchor="446.15576171875" />
                         <Label id="logo" layoutX="69.0" layoutY="15.0" text="Recept" AnchorPane.leftAnchor="69.0" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font name="Segoe UI Black" size="18.0" />
-                           </font></Label>
+                           </font>
+                        </Label>
                         <ImageView fitHeight="83.0" fitWidth="78.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="11.0">
                            <image>
                               <Image url="@resources/logo.png" />
-                           </image></ImageView>
+                           </image>
+                        </ImageView>
                         <Text layoutX="234.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="kr" AnchorPane.leftAnchor="234.0" AnchorPane.topAnchor="380.0" />
                         <Label fx:id="minuteLabel" layoutX="184.0" layoutY="446.0" styleClass="text-smaller" text="00" AnchorPane.leftAnchor="184.0" AnchorPane.topAnchor="446.0" />
                         <Label id="logo-twirl" layoutX="185.0" layoutY="-9.0" text="sök" AnchorPane.leftAnchor="185.0" AnchorPane.topAnchor="-9.0">
@@ -108,5 +109,39 @@
             </SplitPane>
          </children>
       </StackPane>
+      <AnchorPane layoutX="50.0" layoutY="37.0" prefHeight="450.0" prefWidth="750.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="37.0">
+         <children>
+            <ImageView fx:id="DetailedCuisine" fitHeight="31.0" fitWidth="41.0" layoutX="161.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="120.0" />
+            <ImageView fx:id="DetailedImage" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" onMouseEntered="#closeButtonMouseEntered" onMouseExited="#closeButtonMouseExited" onMousePressed="#closeButtonMousePressed" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+            <Label fx:id="DetailedName" layoutX="220.0" layoutY="19.0" prefHeight="31.0" prefWidth="293.0" styleClass="text-title2" text="Namn" AnchorPane.leftAnchor="220.0" AnchorPane.topAnchor="19.0" />
+            <Button fx:id="closeDetailed" layoutX="702.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeRecipeView" prefHeight="15.0" prefWidth="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+               <graphic>
+                  <ImageView fx:id="closeButtonView" fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/icon_close.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fx:id="DetailedMainIngredient" fitHeight="30.0" fitWidth="30.0" layoutX="214.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="214.0" AnchorPane.topAnchor="50.0" />
+            <ImageView fx:id="DetailedDifficulty" fitHeight="30.0" fitWidth="120.0" layoutX="270.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="50.0" />
+            <Label fx:id="DetailedTime" layoutX="396.0" layoutY="57.0" styleClass="text-normal" text="XXX" />
+            <Label layoutX="427.0" layoutY="57.0" styleClass="text-normal" text="minuter" />
+            <Label fx:id="DetailedPrice" layoutX="491.0" layoutY="57.0" styleClass="text-normal" text="XX" />
+            <Label layoutX="513.0" layoutY="57.0" styleClass="text-normal" text="kr" />
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="370.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="370.0" AnchorPane.topAnchor="55.0">
+               <image>
+                  <Image url="@resources/icon_time.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="21.0" layoutY="166.0" styleClass="text-larger" text="Ingredienser:" />
+            <TextArea fx:id="DetailedIngredients" editable="false" layoutX="21.0" layoutY="213.0" prefHeight="216.0" prefWidth="171.0" styleClass="text-normal" wrapText="true" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="213.0" />
+            <Label fx:id="DetailedServings" layoutX="102.0" layoutY="194.0" styleClass="text-normal" text="X" AnchorPane.leftAnchor="102.0" AnchorPane.topAnchor="194.0" />
+            <TextArea fx:id="DetailedDescription" editable="false" layoutX="225.0" layoutY="85.0" prefHeight="97.0" prefWidth="509.0" styleClass="text-normal" wrapText="true" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="85.0" />
+            <TextArea fx:id="DetailedInstructions" editable="false" layoutX="220.0" layoutY="225.0" prefHeight="216.0" prefWidth="520.0" styleClass="text-normal" wrapText="true" AnchorPane.leftAnchor="214.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="225.0" />
+            <Label layoutX="215.0" layoutY="202.0" styleClass="text-larger" text="Tillagning:" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="202.0" />
+            <Label layoutX="21.0" layoutY="194.0" styleClass="text-normal" text="Portionener:" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="194.0" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

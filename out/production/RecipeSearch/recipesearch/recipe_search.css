@@ -53,3 +53,10 @@
        -fx-background-color: -fx-background;
    }
 
+   #anchor-pane-detailed{
+      -fx-background-color: 0,0,0,0,0.75;
+   }
+   .text-title2{
+            -fx-font-size: 24px;
+            -fx-font-family: "Century";
+      }

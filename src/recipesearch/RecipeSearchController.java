@@ -43,12 +43,21 @@ public class RecipeSearchController implements Initializable {
     @FXML Spinner maxPriceSpinner;
     @FXML Slider maxTimeSlider;
     @FXML Label minuteLabel;
-    @FXML Button closeDetailed;
-    @FXML Label detailedName;
-    @FXML ImageView detailedImage;
-    @FXML AnchorPane detailedView;
     @FXML SplitPane searchView;
     @FXML ImageView closeButtonView;
+    @FXML Button closeDetailed;
+    @FXML Label DetailedName;
+    @FXML ImageView DetailedImage;
+    @FXML AnchorPane detailedView;
+    @FXML ImageView DetailedCuisine;
+    @FXML ImageView DetailedMainIngredient;
+    @FXML ImageView DetailedDifficulty;
+    @FXML Label DetailedTime;
+    @FXML Label DetailedPrice;
+    @FXML Label DetailedServings;
+    @FXML TextArea DetailedIngredients;
+    @FXML TextArea DetailedDescription;
+    @FXML TextArea DetailedInstructions;
 
     private void updateRecipeList(){
         resultFlowPane.getChildren().clear();
@@ -60,8 +69,17 @@ public class RecipeSearchController implements Initializable {
     }
 
     private void populateRecipeDetailView(Recipe recipe){
-        detailedName.setText(recipe.getName());
-        detailedImage.setImage(recipe.getFXImage());
+        DetailedName.setText(recipe.getName());
+        DetailedImage.setImage(recipe.getFXImage());
+        DetailedCuisine.setImage(getCuisineImage(recipe.getCuisine()));
+        DetailedMainIngredient.setImage(getMainIngredientImage(recipe.getMainIngredient()));
+        DetailedDifficulty.setImage(getDifficultyImage(recipe.getDifficulty()));
+        DetailedTime.setText(Integer.toString(recipe.getTime()));
+        DetailedPrice.setText(Integer.toString(recipe.getPrice()));
+        DetailedServings.setText(Integer.toString(recipe.getServings()));
+        DetailedIngredients.setText(recipe.getIngredients().toString());
+        DetailedDescription.setText(recipe.getDescription());
+        DetailedInstructions.setText(recipe.getInstruction());
     }
 
     @FXML

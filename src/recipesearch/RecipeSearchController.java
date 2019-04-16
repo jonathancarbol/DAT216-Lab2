@@ -15,6 +15,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.image.WritableImage;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import javafx.util.Callback;
@@ -207,5 +208,56 @@ public class RecipeSearchController implements Initializable {
         };
         mainIngredientList.setButtonCell(cellFactory.call(null));
         mainIngredientList.setCellFactory(cellFactory);
+    }
+    public Image getCuisineImage(String cuisine) {
+        String iconPath = "RecipeSearch/resources/icon_flag_sweden.png";
+        switch (cuisine) {
+            case "Sverige":
+                iconPath = "RecipeSearch/resources/icon_flag_sweden.png";
+                break;
+            case "Grekland":
+                iconPath = "RecipeSearch/resources/icon_flag_greece.png";
+                break;
+            case "Indien":
+                iconPath = "RecipeSearch/resources/icon_flag_india.png";
+                break;
+            case "Asien":
+                iconPath = "RecipeSearch/resources/icon_flag_asia.png";
+                break;
+            case "Afrika":
+                iconPath = "RecipeSearch/resources/icon_flag_africa.png";
+                break;
+            case "Frankrike":
+                iconPath = "RecipeSearch/resources/icon_flag_france.png";
+                break;
+        }
+        return new Image(getClass().getClassLoader().getResourceAsStream(iconPath));
+    }
+    public Image getSquareImage(Image image){
+
+        int x = 0;
+        int y = 0;
+        int width = 0;
+        int height = 0;
+
+        if(image.getWidth() > image.getHeight()){
+            width = (int) image.getHeight();
+            height = (int) image.getHeight();
+            x = (int)(image.getWidth() - width)/2;
+            y = 0;
+        }
+
+        else if(image.getHeight() > image.getWidth()){
+            width = (int) image.getWidth();
+            height = (int) image.getWidth();
+            x = 0;
+            y = (int) (image.getHeight() - height)/2;
+        }
+
+        else{
+            //Width equals Height, return original image
+            return image;
+        }
+        return new WritableImage(image.getPixelReader(), x, y, width, height);
     }
 }

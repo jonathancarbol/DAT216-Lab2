@@ -3,14 +3,15 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<fx:root onMouseClicked="#onClick" prefHeight="100.0" prefWidth="495.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root onMouseClicked="#onClick" prefHeight="100.0" prefWidth="495.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutY="9.0" prefHeight="73.0" prefWidth="68.0" text="Picture">
-         <graphic>
-            <ImageView fx:id="recipeImage" fitHeight="90.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true" />
-         </graphic>
-      </Label>
-      <Label fx:id="recipeItemName" layoutX="136.0" layoutY="14.0" text="Name:" />
+      <Label fx:id="recipeItemName" layoutX="136.0" layoutY="14.0" styleClass="text-title" text="Name:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ImageView fx:id="recipeImage" fitHeight="90.0" fitWidth="91.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="listitem_cuisine" fitHeight="24.0" fitWidth="34.0" layoutX="63.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </fx:root>

@@ -25,3 +25,9 @@
        -fx-text-fill: #FFAC33;
        -fx-rotate: -20;
    }
+
+   .text-title{
+         -fx-font-size: 18px;
+         -fx-font-family: "Century";
+   }
+

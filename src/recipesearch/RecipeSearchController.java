@@ -79,6 +79,7 @@ public class RecipeSearchController implements Initializable {
         DetailedTime.setText(Integer.toString(recipe.getTime()));
         DetailedPrice.setText(Integer.toString(recipe.getPrice()));
         DetailedServings.setText(Integer.toString(recipe.getServings()));
+        DetailedIngredients.setText("");
         for(Ingredient i : recipe.getIngredients()){
             DetailedIngredients.setText(DetailedIngredients.getText() + "\n" + i.toString());
         }

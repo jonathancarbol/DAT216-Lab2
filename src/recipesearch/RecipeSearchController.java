@@ -19,6 +19,7 @@ import javafx.scene.image.WritableImage;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import javafx.util.Callback;
+import se.chalmers.ait.dat215.lab2.Ingredient;
 import se.chalmers.ait.dat215.lab2.Recipe;
 import se.chalmers.ait.dat215.lab2.RecipeDatabase;
 import se.chalmers.ait.dat215.lab2.SearchFilter;
@@ -77,7 +78,10 @@ public class RecipeSearchController implements Initializable {
         DetailedTime.setText(Integer.toString(recipe.getTime()));
         DetailedPrice.setText(Integer.toString(recipe.getPrice()));
         DetailedServings.setText(Integer.toString(recipe.getServings()));
-        DetailedIngredients.setText(recipe.getIngredients().toString());
+        for(Ingredient i : recipe.getIngredients()){
+            DetailedIngredients.setText(DetailedIngredients.getText() + "\n" + i.toString());
+        }
+        //DetailedIngredients.setText(recipe.getIngredients().toString());
         DetailedDescription.setText(recipe.getDescription());
         DetailedInstructions.setText(recipe.getInstruction());
     }

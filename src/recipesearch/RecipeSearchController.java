@@ -10,6 +10,7 @@ import java.util.ResourceBundle;
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -89,6 +90,10 @@ public class RecipeSearchController implements Initializable {
     @FXML
     public void closeRecipeView(){
         searchView.toFront();
+    }
+    @FXML
+    public void mouseTrap(Event event){
+        event.consume();
     }
 
     public void openRecipeView(Recipe recipe){

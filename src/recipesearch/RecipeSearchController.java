@@ -274,35 +274,35 @@ public class RecipeSearchController implements Initializable {
     }
 
     public Image getDifficultyImage(String difficulty){
-        String iconPath = "RecipeSearch/resources/icon_difficulty_easy";
+        String iconPath = "";
         switch (difficulty) {
             case "Lätt":
-                iconPath = "RecipeSearch/resources/icon_difficulty_easy";
+                iconPath = "RecipeSearch/resources/icon_difficulty_easy.png";
                 break;
             case "Mellan":
-                iconPath = "RecipeSearch/resources/icon_difficulty_medium";
+                iconPath = "RecipeSearch/resources/icon_difficulty_medium.png";
                 break;
             case "Svår":
-                iconPath = "RecipeSearch/resources/icon_difficulty_hard";
+                iconPath = "RecipeSearch/resources/icon_difficulty_hard.png";
                 break;
         }
         return new Image(getClass().getClassLoader().getResourceAsStream(iconPath));
     }
 
     public Image getMainIngredientImage(String ingredient) {
-        String iconPath = "RecipeSearch/resources/icon_main_meat";
+        String iconPath = "";
         switch (ingredient) {
             case "Kött":
-                iconPath = "RecipeSearch/resources/icon_main_meat";
+                iconPath = "RecipeSearch/resources/icon_main_meat.png";
                 break;
             case "Fisk":
-                iconPath = "RecipeSearch/resources/icon_main_fish";
+                iconPath = "RecipeSearch/resources/icon_main_fish.png";
                 break;
             case "Kyckling":
-                iconPath = "RecipeSearch/resources/icon_main_chicken";
+                iconPath = "RecipeSearch/resources/icon_main_chicken.png";
                 break;
             case "Vegetarisk":
-                iconPath = "RecipeSearch/resources/icon_main_veg";
+                iconPath = "RecipeSearch/resources/icon_main_veg.png";
                 break;
         }
         return new Image(getClass().getClassLoader().getResourceAsStream(iconPath));

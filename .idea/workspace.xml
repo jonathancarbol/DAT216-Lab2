@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b04177fb-4d76-4dc4-990e-3e7c9ee72e7b" name="Default" comment="Börjat på labb 3, kommit till steg 4.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/RecipeSearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_search.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipeSearch/recipesearch/recipe_search.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipesearch/RecipeListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipesearch/RecipeListItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipesearch/recipe_listitem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipesearch/recipe_listitem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipesearch/recipe_search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipesearch/recipe_search.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,33 +51,36 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2354" />
+          <entry key="java" value="2915" />
           <entry key="txt" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2354" />
+          <entry key="JAVA" value="2915" />
           <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="fxml" value="1" />
+          <entry key="class" value="3" />
+          <entry key="fxml" value="2" />
           <entry key="java" value="1" />
+          <entry key="jpg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="3" />
+          <entry key="Image" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -131,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="323">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -140,43 +136,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeListItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-              <folding>
-                <element signature="e#2217#2218#0" expanded="true" />
-                <element signature="e#2272#2273#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.css">
+        <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="469">
+              <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java">
+        <entry file="jar://$PROJECT_DIR$/lib/lab2-backend.jar!/se/chalmers/ait/dat215/lab2/Recipe.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="260" column="78" selection-start-line="260" selection-start-column="78" selection-end-line="260" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6293#8676#0" expanded="true" />
-                <element signature="e#8675#8676#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="544">
+              <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recipes/chicken-tikka-masala.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeBackendController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="323">
               <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -188,7 +199,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/lab2-backend.jar!/se/chalmers/ait/dat215/lab2/SearchFilter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="-340">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -238,10 +249,10 @@
         <option value="$PROJECT_DIR$/src/recipesearch/resources/RecipeSearch.properties" />
         <option value="$PROJECT_DIR$/src/recipesearch/recipe_listitem.fxml" />
         <option value="$PROJECT_DIR$/src/recipesearch/RecipeBackendController.java" />
-        <option value="$PROJECT_DIR$/src/recipesearch/RecipeSearch.java" />
         <option value="$PROJECT_DIR$/src/recipesearch/RecipeListItem.java" />
-        <option value="$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java" />
         <option value="$PROJECT_DIR$/src/recipesearch/recipe_search.css" />
+        <option value="$PROJECT_DIR$/src/recipesearch/RecipeSearch.java" />
+        <option value="$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java" />
       </list>
     </option>
   </component>
@@ -256,12 +267,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="DAT216-Lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="DAT216-Lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAT216-Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAT216-Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAT216-Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAT216-Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lab2-backend.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="DAT216-Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAT216-Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lab2-backend.jar" type="ab9368bb:PsiFileNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DAT216-Lab2" type="b2602c69:ProjectViewProjectNode" />
@@ -274,13 +305,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="recipesearch" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DAT216-Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAT216-Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="recipesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,10 +470,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4948148" visible="true" weight="0.18724832" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948148" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,7 +482,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27375886" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2733189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,8 +490,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32832617" />
-      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -466,6 +500,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32998115" />
+      <window_info anchor="right" id="PlantUML" order="9" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -510,14 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/RecipeSearch.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -529,13 +556,6 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/lab2-backend.jar!/se/chalmers/ait/dat215/lab2/Recipe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/lab2-backend.jar!/se/chalmers/ait/dat215/lab2/Ingredient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -543,9 +563,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipes/chicken-tikka-masala.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeBackendController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="323">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -553,47 +591,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/lab2-backend.jar!/se/chalmers/ait/dat215/lab2/SearchFilter.class">
+    <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeListItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="323">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeListItem.java">
+    <entry file="jar://$PROJECT_DIR$/lib/lab2-backend.jar!/se/chalmers/ait/dat215/lab2/Recipe.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="e#2217#2218#0" expanded="true" />
-            <element signature="e#2272#2273#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab2-backend.jar!/se/chalmers/ait/dat215/lab2/SearchFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recipesearch/RecipeSearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="260" column="78" selection-start-line="260" selection-start-column="78" selection-end-line="260" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6293#8676#0" expanded="true" />
-            <element signature="e#8675#8676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/recipesearch/recipe_search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="469">
+          <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
         </state>
       </provider>
     </entry>

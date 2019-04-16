@@ -23,6 +23,8 @@ import se.chalmers.ait.dat215.lab2.Recipe;
 import se.chalmers.ait.dat215.lab2.RecipeDatabase;
 import se.chalmers.ait.dat215.lab2.SearchFilter;
 
+import static java.sql.DriverManager.println;
+
 
 public class RecipeSearchController implements Initializable {
 
@@ -233,6 +235,43 @@ public class RecipeSearchController implements Initializable {
         }
         return new Image(getClass().getClassLoader().getResourceAsStream(iconPath));
     }
+
+    public Image getDifficultyImage(String difficulty){
+        String iconPath = "RecipeSearch/resources/icon_difficulty_easy";
+        switch (difficulty) {
+            case "Lätt":
+                iconPath = "RecipeSearch/resources/icon_difficulty_easy";
+                break;
+            case "Mellan":
+                iconPath = "RecipeSearch/resources/icon_difficulty_medium";
+                break;
+            case "Svår":
+                iconPath = "RecipeSearch/resources/icon_difficulty_hard";
+                break;
+        }
+        return new Image(getClass().getClassLoader().getResourceAsStream(iconPath));
+    }
+
+    public Image getMainIngredientImage(String ingredient) {
+        String iconPath = "RecipeSearch/resources/icon_main_meat";
+        switch (ingredient) {
+            case "Kött":
+                iconPath = "RecipeSearch/resources/icon_main_meat";
+                break;
+            case "Fisk":
+                iconPath = "RecipeSearch/resources/icon_main_fish";
+                break;
+            case "Kyckling":
+                iconPath = "RecipeSearch/resources/icon_main_chicken";
+                break;
+            case "Vegetarisk":
+                iconPath = "RecipeSearch/resources/icon_main_veg";
+                break;
+        }
+        return new Image(getClass().getClassLoader().getResourceAsStream(iconPath));
+    }
+
+    
     public Image getSquareImage(Image image){
 
         int x = 0;

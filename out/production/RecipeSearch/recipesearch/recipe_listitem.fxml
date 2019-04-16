@@ -20,6 +20,6 @@
       <Label layoutX="278.0" layoutY="20.0" text="minuter" AnchorPane.leftAnchor="278.0" AnchorPane.topAnchor="20.0" />
       <Label fx:id="ListItemPrice" layoutX="345.0" layoutY="20.0" text="XX" AnchorPane.leftAnchor="345.0" AnchorPane.topAnchor="20.0" />
       <Label layoutX="364.0" layoutY="20.0" text="kr" AnchorPane.leftAnchor="364.0" AnchorPane.topAnchor="20.0" />
-      <TextArea fx:id="ListItemDescription" editable="false" layoutX="111.0" layoutY="43.0" prefHeight="60.0" prefWidth="479.0" wrapText="true" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="43.0" />
+      <TextArea fx:id="ListItemDescription" editable="false" layoutX="111.0" layoutY="43.0" mouseTransparent="true" prefHeight="60.0" prefWidth="479.0" styleClass="recipe-list-item-textarea" wrapText="true" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="43.0" />
    </children>
 </fx:root>

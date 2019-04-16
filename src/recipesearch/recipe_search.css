@@ -45,6 +45,16 @@
         -fx-background-color: #D0D0D0;
    }
 
+   .recipe-list-item-textarea{
+        -fx-background-color: -fx-background;
+   }
+   .recipe-list-item-textarea:hover{
+        -fx-background-color: #FCFCFC;
+   }
+   .recipe-list-item-textarea:pressed{
+           -fx-background-color: #D0D0D0;
+   }
+
    .text-area .content {
       -fx-background-color: -fx-background;
    }

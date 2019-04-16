@@ -49,7 +49,7 @@
                            </image>
                         </ImageView>
                         <Label layoutX="21.0" layoutY="166.0" styleClass="text-larger" text="Ingredienser:" />
-                        <TextArea fx:id="DetailedIngredients" editable="false" layoutX="21.0" layoutY="213.0" prefHeight="216.0" prefWidth="171.0" styleClass="text-normal" wrapText="true" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="213.0" />
+                        <TextArea fx:id="DetailedIngredients" editable="false" layoutX="21.0" layoutY="213.0" prefHeight="226.0" prefWidth="171.0" styleClass="text-normal" wrapText="true" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="213.0" />
                         <Label fx:id="DetailedServings" layoutX="102.0" layoutY="194.0" styleClass="text-normal" text="X" AnchorPane.leftAnchor="102.0" AnchorPane.topAnchor="194.0" />
                         <TextArea fx:id="DetailedDescription" editable="false" layoutX="225.0" layoutY="85.0" prefHeight="97.0" prefWidth="509.0" styleClass="text-normal" wrapText="true" AnchorPane.leftAnchor="235.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="85.0" />
                         <TextArea fx:id="DetailedInstructions" editable="false" layoutX="220.0" layoutY="225.0" prefHeight="216.0" prefWidth="520.0" styleClass="text-normal" wrapText="true" AnchorPane.leftAnchor="235.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="225.0" />

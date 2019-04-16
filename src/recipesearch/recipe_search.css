@@ -1,2 +1,27 @@
 
+.text-normal{
+     -fx-font-size: 13px;
+     -fx-font-family: "Century";
+ }
 
+ .text-smaller{
+      -fx-font-size: 11px;
+      -fx-font-family: "Century";
+  }
+
+  .text-larger{
+       -fx-font-size: 15px;
+       -fx-font-family: "Century";
+   }
+
+   #logo{
+       -fx-font-size: 48px;
+       -fx-font-family: "Segoe UI Black";
+   }
+
+   #logo-twirl{
+       -fx-font-size: 64px;
+       -fx-font-family: "Segoe Script";
+       -fx-text-fill: #FFAC33;
+       -fx-rotate: -20;
+   }

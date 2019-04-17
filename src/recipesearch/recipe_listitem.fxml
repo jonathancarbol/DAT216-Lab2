@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -20,6 +19,6 @@
       <Label layoutX="278.0" layoutY="20.0" styleClass="text-smaller" text="minuter" AnchorPane.leftAnchor="278.0" AnchorPane.topAnchor="25.0" />
       <Label fx:id="ListItemPrice" layoutX="345.0" layoutY="20.0" styleClass="text-smaller" text="XX" AnchorPane.leftAnchor="345.0" AnchorPane.topAnchor="25.0" />
       <Label layoutX="364.0" layoutY="20.0" styleClass="text-smaller" text="kr" AnchorPane.leftAnchor="364.0" AnchorPane.topAnchor="25.0" />
-      <TextArea fx:id="ListItemDescription" editable="false" layoutX="111.0" layoutY="43.0" mouseTransparent="true" prefHeight="60.0" prefWidth="479.0" styleClass="recipe-list-item-textarea" wrapText="true" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="43.0" />
+      <Label fx:id="ListItemDescription" layoutX="112.0" layoutY="50.0" prefHeight="50.0" prefWidth="470.0" styleClass="text-normal" text="Description" wrapText="true" />
    </children>
 </fx:root>

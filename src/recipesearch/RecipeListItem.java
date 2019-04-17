@@ -24,7 +24,7 @@ public class RecipeListItem extends AnchorPane {
     @FXML public ImageView ListItemDifficulty;
     @FXML public Label ListItemTime;
     @FXML public Label ListItemPrice;
-    @FXML public TextArea ListItemDescription;
+    @FXML public Label ListItemDescription;
 
 
     public RecipeListItem(Recipe recipe, RecipeSearchController recipeSearchController){
@@ -41,7 +41,7 @@ public class RecipeListItem extends AnchorPane {
         this.recipe = recipe;
         this.parentController = recipeSearchController;
         recipeItemName.setText(recipe.getName());
-        recipeImage.setImage(recipe.getFXImage());
+        recipeImage.setImage(parentController.getSquareImage(recipe.getFXImage()));
         listitem_cuisine.setImage(parentController.getCuisineImage(recipe.getCuisine()));
         ListItemMainIngredient.setImage(parentController.getMainIngredientImage(recipe.getMainIngredient()));
         ListItemDifficulty.setImage(parentController.getDifficultyImage(recipe.getDifficulty()));
